@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9a35f2a-323a-4d80-a679-5165ec5e05a1" name="Default Changelist" comment="" />
+    <list default="true" id="f9a35f2a-323a-4d80-a679-5165ec5e05a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/Encapsulation/.idea/Encapsulation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/Encapsulation/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/Encapsulation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/Encapsulation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/Encapsulation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/Encapsulation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/Encapsulation/Enkapsulacja.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/Encapsulation/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/Encapsulation/staticExplanation/Start.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/Encapsulation/staticExplanation/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/Encapsulation/staticExplanation/ZmiennaKlasowa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/Encapsulation/staticExplanation/ZmiennaStatyczna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interesting Examples with Explanation/Bartek's examples/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Pytania na staż do firmy/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Zabawa Metodami/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Zabawa Metodami/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Zabawa Metodami/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Zabawa Metodami/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Zabawa Metodami/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Zabawa Metodami/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Zabawa Metodami/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Zabawa Metodami/Ass.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Zabawa Metodami/out/production/Ass/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Zabawa Metodami/out/production/Ass/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Zabawa Metodami/out/production/Ass/com/ass/components/Ass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Zabawa Metodami/src/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Zabawa Metodami/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Other Tasks/Zabawa Metodami/src/com/ass/components/Ass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dzielnik/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dzielnik/Main.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,26 +53,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="340">
+              <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zadania/introductionToJava/BiggestDivider.java">
+        <entry file="file://$PROJECT_DIR$/src/zadania/introductionToJava/tablica/osob/TablicaOsob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zadania/introductionToJava/RozpadNaPierwsze.java">
+        <entry file="file://$PROJECT_DIR$/src/zadania/introductionToJava/tablica/osob/Osoba.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+              <folding>
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,13 +91,15 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/RozpadNaPierwsze.java" />
         <option value="$PROJECT_DIR$/src/BiggestDivider.java" />
+        <option value="$PROJECT_DIR$/src/zadania/introductionToJava/tablica/osob/TablicaOsob.java" />
+        <option value="$PROJECT_DIR$/src/zadania/introductionToJava/tablica/osob/Osoba.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -98,7 +143,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580648755673" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581010484074" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,8 +239,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30040485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32793522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -204,12 +250,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
@@ -243,13 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadania/introductionToJava/BiggestDivider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zadania/introductionToJava/RozpadNaPierwsze.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -257,10 +296,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadania/introductionToJava/BiggestDivider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadania/introductionToJava/tablica/osob/TablicaOsob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadania/introductionToJava/tablica/osob/Osoba.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="340">
+          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
         </state>
       </provider>
     </entry>

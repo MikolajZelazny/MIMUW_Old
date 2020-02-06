@@ -1,0 +1,66 @@
+public class HelloWorld {
+
+     public static void main(String []args) throws Exception{
+        Animal animal = new Animal();
+
+        
+        try{
+            animal.setWeight(-5);
+         // animal.weight=-5; becouse private modifier
+        }catch(Exception e){
+            System.out.println("Waga nie moze byc mniejsza od 0");
+        }
+        
+        animal.setWeight(5);
+        System.out.println("Ustawiłem wage na: " + animal.getWeight());
+        
+        animal.setHigh(20);
+        System.out.println("Ustawiłem wysokość na: " + animal.getHigh());
+         
+     }
+}
+
+class Animal{
+    // zmienne
+    // konstruktor
+    // metody
+    private int weight;
+    private int high;
+        
+    public Animal(){}    
+    
+    
+    public int getHigh(){
+        return this.high;
+    }
+    
+
+    public void setHigh(int high){
+        if(high>0)
+            this.high=high;
+        else {
+            System.out.println("high can not be smaller than 0");
+        }
+    
+    }
+    
+    public int getWeight(){
+        return this.weight;
+    }
+
+    
+    public void setWeight(int weight) throws Exception{
+        if(weight>0)
+        this.weight= weight;
+        else 
+            throw new Exception();
+    }
+    
+    private String makeSound(){
+        return "aaaaaa";
+    }
+    
+    public String makeSoundPublic(){
+        return this.makeSound();
+    }
+}
