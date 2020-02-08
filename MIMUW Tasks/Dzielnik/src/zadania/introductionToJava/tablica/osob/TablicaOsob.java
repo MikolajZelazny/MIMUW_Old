@@ -3,7 +3,7 @@ package zadania.introductionToJava.tablica.osob;
  public class TablicaOsob {
 
 
-    public static void dodajDane(String a) {
+    public void dodajDane(String a) {
         String[] osoby = new String[10]; // w metodzie czy klasie?
 
         for (int i=0;i<10;i++) {

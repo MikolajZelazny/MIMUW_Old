@@ -1,4 +1,5 @@
 import zadania.cd2.kapsulkowanie.DateTask;
+import zadania.cd2.kapsulkowanie.Liczba;
 import zadania.introductionToJava.BiggestDivider;
 import zadania.introductionToJava.RozpadNaPierwsze;
 import zadania.introductionToJava.tablica.osob.Osoba;
@@ -29,6 +30,10 @@ public class Main {
         DateTask.dzisiaj();
         DateTask.tydzienTemu();
         DateTask.zaTydzien();
+
+        Liczba.decToArr(0.234123,8);
+
+        firstArr.dodajDane();
 
 
 
