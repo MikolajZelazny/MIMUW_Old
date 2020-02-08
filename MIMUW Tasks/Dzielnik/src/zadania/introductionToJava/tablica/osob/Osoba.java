@@ -12,6 +12,11 @@ package zadania.introductionToJava.tablica.osob;
             this.imię = imię;
             this.nazwisko = nazwisko;
         }
+       // Setter
+       //public void setColor(String c) {
+       //    this.color = c;
+       //}
+   //}
 
         public String getNames() {
             return imię + " " + nazwisko; // czy powinno być this.imię?
