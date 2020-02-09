@@ -17,7 +17,7 @@ public class PersonLogic {
 //W poleceniu jest "wczytać" do czego nam readPersonsData, taka sama operacja(loop) wykonuje się w "saveP..", czy tylko do souta?
         for (int i=0;i<person.length;i++) {
             if (i==numberOfPerson) {
-                System.out.println(person[i].getName() + person[i].getSurname());
+                System.out.println("\nPerson " + i + " : " + person[i].getName() + person[i].getSurname());
             }
         }
     }
@@ -30,8 +30,8 @@ public class PersonLogic {
     }
 
     public void showPersonRevertOrder (){
-        for (int l=person.length;l>0;l--){
-            System.out.println(person[l]);
+        for (int l=person.length-1;l>0;l--){
+            System.out.println(person[l].getName() + person[l].getSurname());
         }
     }
 }

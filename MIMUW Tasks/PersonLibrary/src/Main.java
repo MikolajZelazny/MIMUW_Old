@@ -1,6 +1,8 @@
 import com.mikolaj.person.Person;
 import com.mikolaj.person.PersonLogic;
 
+import java.lang.reflect.Array;
+
 public class Main {
    /* Napisz program składający się z dwu klas, umieszczonych w dwu plikach (ale w jednym pakiecie).
     Jeden plik ma zawierać definicję klasy Person (z imieniem i nazwiskiem oraz metodami pozwalającymi
@@ -13,28 +15,33 @@ public class Main {
     (za każdym razem dwukrotnie zwiększając jej pojemność). Oczywiście nie można przy tym zgubić
     dotychczasowej zawartości. */
     public static void main(String[] args) {
-        Person[] alfa = new Person[12];
+        Person[] alfa = new Person[4];
 
         for(int i=0; i<alfa.length; i++) { // In loop because of java.lang.NullPointerException.
-            alfa[i] = new Person(); // Person(String,String)in Person cannot be appliedto().
+            alfa[i] = new Person("","");
 
-            alfa[0].setName("Arol");
-            alfa[1].setSurname("Eusta");
+            if (alfa[i].getName().isEmpty()) {
+                alfa[0].setName("Arol");
+                alfa[0].setSurname("Eusta");
+            }
+            if (alfa[i].getName().isEmpty()) {
+                alfa[1].setName("Marol");
+                alfa[1].setSurname("Kniaz");
+            }
+            if (alfa[i].getName().isEmpty()) {
+                alfa[2].setName("Juda");
+                alfa[2].setSurname("Morrt");
+            }
+            if (alfa[i].getName().isEmpty()) {
+                alfa[3].setName("Gamiusz");
+                alfa[3].setSurname("Czwarty");
+            }
 
-            alfa[2].setName("Marol");
-            alfa[3].setSurname("Kniaz");
+            //alfa[8].setName("Kugon");
+            //alfa[9].setSurname("Esperalewski");
 
-            alfa[4].setName("Juda");
-            alfa[5].setSurname("Morrt");
-
-            alfa[6].setName("Gamiusz");
-            alfa[7].setSurname("Czwarty");
-
-            alfa[8].setName("Kugon");
-            alfa[9].setSurname("Esperalewski");
-
-            alfa[10].setName("Damianus");
-            alfa[11].setSurname("Rex");
+            //alfa[10].setName("Damianus");
+            //alfa[11].setSurname("Rex");
         }
 
 
@@ -43,7 +50,8 @@ public class Main {
 
         PersonLogic logic = new PersonLogic();
         logic.savePersonData(alfa);
-        logic.readPersonData(3);
-
+        logic.readPersonData(2);
+        System.out.println("\n\nArray in reverse:\n");
+        logic.showPersonRevertOrder();
     }
 }
