@@ -16,7 +16,7 @@ public class Main {
         Person[] alfa = new Person[12];
 
         for(int i=0; i<alfa.length; i++) { // In loop because of java.lang.NullPointerException.
-            alfa[i] = new Person();
+            alfa[i] = new Person(); // Person(String,String)in Person cannot be appliedto().
 
             alfa[0].setName("Arol");
             alfa[1].setSurname("Eusta");
