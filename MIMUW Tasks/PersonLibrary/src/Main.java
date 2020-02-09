@@ -36,18 +36,12 @@ public class Main {
                 alfa[3].setName("Gamiusz");
                 alfa[3].setSurname("Czwarty");
             }
-
             //alfa[8].setName("Kugon");
             //alfa[9].setSurname("Esperalewski");
-
+            //
             //alfa[10].setName("Damianus");
             //alfa[11].setSurname("Rex");
         }
-
-
-
-
-
         PersonLogic logic = new PersonLogic();
         logic.savePersonData(alfa);
         logic.readPersonData(2);
