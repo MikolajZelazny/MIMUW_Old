@@ -12,15 +12,25 @@ dotychczasowej zawartości. */
 public class PersonLogic {
     Person[] person;
 
-    public void readPersonData(int numberOfPerson){
 
+    public void readPersonData(int numberOfPerson){
+        for (int i=0;i<person.length;i++) {
+            if (i==numberOfPerson) {
+                System.out.println(person[i].getName() + person[i].getSurname());
+            }
+        }
     }
 
-    public void savePersonData(){
-
+    public void savePersonData(Person[] a){
+        person = new Person[a.length];
+        for (int x=0;x<a.length;x++) {
+            person[x]=a[x];
+        }
     }
 
     public void showPersonRevertOrder (){
-
+        for (int l=person.length;l>0;l--){
+            System.out.println(person[l]);
+        }
     }
 }
