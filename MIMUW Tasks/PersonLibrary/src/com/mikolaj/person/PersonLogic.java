@@ -14,6 +14,7 @@ public class PersonLogic {
 
 
     public void readPersonData(int numberOfPerson){
+//W poleceniu jest "wczytać" do czego nam readPersonsData, taka sama operacja(loop) wykonuje się w "saveP..", czy tylko do souta?
         for (int i=0;i<person.length;i++) {
             if (i==numberOfPerson) {
                 System.out.println(person[i].getName() + person[i].getSurname());
