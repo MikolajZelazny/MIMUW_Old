@@ -7,19 +7,19 @@ output: nowa tablica [3,2,1]
 public class Main {
     private static Person[] personsOrdered = getPersonsOrdered();
     private static Person[] personsReverted; //personOrdered but reverted
-    private  static Person[] personsTest;
 
     public static void main(String[] args) {
         PersonLogic personLogic = new PersonLogic();
+        System.out.println("\n Save initial data: \n");
         personLogic.readAndSavePersonData(personsOrdered);
-        //System.out.println("\n\nArray in reverse:\n");
-        // personsReverted = personLogic.doReversionOfTable(personsOrdered); Create in PersonLogic class.
-        //personsOrdered.
-        //personLogic.showPersons(personsReverted);
+        System.out.println("\n Reversion check: \n");
         personLogic.doReversionOfTable(personsOrdered);
-        //
-        // CURRENT PROBLEM:
-        // personLogic.showPersons(); // What to pass her?
+        System.out.println("\n Final(show method) compatibility test:  \n");
+        personLogic.showPersons();
+
+
+        // personsReverted = personLogic.doReversionOfTable(personsOrdered); Create in PersonLogic class.
+        //personLogic.showPersons(personsReverted);
     }
 
     private static Person[] getPersonsOrdered() {
