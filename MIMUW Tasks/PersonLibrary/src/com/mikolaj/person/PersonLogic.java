@@ -10,28 +10,26 @@ Wersja trudniejsza: program czyta dane, aż użytkownik poda puste nazwisko. Tab
 (za każdym razem dwukrotnie zwiększając jej pojemność). Oczywiście nie można przy tym zgubić
 dotychczasowej zawartości. */
 public class PersonLogic {
-    Person[] person;
+    private Person[] person; // Przechowuje personOrdered
+    private Person[] personReverted;
 
+    public void readAndSavePersonData(Person[] persons){
+        person = persons.clone();
+    }
 
-    public void readPersonData(int numberOfPerson){
-//W poleceniu jest "wczytać" do czego nam readPersonsData, taka sama operacja(loop) wykonuje się w "saveP..", czy tylko do souta?
-        for (int i=0;i<person.length;i++) {
-            if (i==numberOfPerson) {
-                System.out.println("\nPerson " + i + " : " + person[i].getName() + person[i].getSurname());
-            }
+    public void doReversionOfTable (Person[] person) {
+        for(int i=0; i<person.length-1; i++){
+            personReverted[i] = person[person.length-i-1];
+            //array[i] = array[array.length -i -1];
+            //array[array.length -i -1] = temp;
         }
     }
 
-    public void savePersonData(Person[] a){
-        person = new Person[a.length];
-        for (int x=0;x<a.length;x++) {
-            person[x]=a[x];
-        }
-    }
 
-    public void showPersonRevertOrder (){
-        for (int l=person.length-1;l>0;l--){
-            System.out.println(person[l].getName() + person[l].getSurname());
-        }
+    public void showPersons(Person[] personReverted){ //ShowPerson, other method will revert.
+        //for (int l=0;l<personReverted.length-1;l++){ //0 to length
+            //System.out.println(l + "-" + personReverted[l].getName() + personReverted[l].getSurname());
+        //}
+        System.out.println(personReverted[1]);
     }
 }
