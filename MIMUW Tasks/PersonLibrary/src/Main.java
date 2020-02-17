@@ -17,8 +17,8 @@ public class Main {
         System.out.println("\n Final(show method) compatibility test:  \n");
         personLogic.showPersons();
 
-
-        // personsReverted = personLogic.doReversionOfTable(personsOrdered); Create in PersonLogic class.
+        //personsReverted = personLogic.readAndSavePersonData(personsOrdered); // Found void because method is void.
+        // personsReverted = personLogic.doReversionOfTable(personsOrdered); // Create in PersonLogic class.
         //personLogic.showPersons(personsReverted);
     }
 
