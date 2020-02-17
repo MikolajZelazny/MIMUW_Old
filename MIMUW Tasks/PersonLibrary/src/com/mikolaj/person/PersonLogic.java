@@ -11,25 +11,42 @@ Wersja trudniejsza: program czyta dane, aż użytkownik poda puste nazwisko. Tab
 dotychczasowej zawartości. */
 public class PersonLogic {
     private Person[] person; // Przechowuje personOrdered
-    private Person[] personReverted;
+    private Person[] temp; // jak pokazac w showPerson zamiast temp person
 
-    public void readAndSavePersonData(Person[] persons){
-        person = persons.clone();
+
+    public void readAndSavePersonData(Person[] personArr){
+        person = personArr.clone();
+
+        for (int c = 0; c<=personArr.length-1; c++){
+            System.out.println("save check " + "Nr. " + c + " " + personArr[c] + " ......");
+        }
+
+
     }
 
     public void doReversionOfTable (Person[] person) {
-        for(int i=0; i<person.length-1; i++){
-            personReverted[i] = person[person.length-i-1];
-            //array[i] = array[array.length -i -1];
-            //array[array.length -i -1] = temp;
+        Person[] temp = new Person[person.length];
+        for (int i = 0; i <= person.length - 1; i++) {
+            temp[i] = person[person.length - 1 - i];
+
         }
+
+        // Check index
+        for (int ci = 0; ci <= temp.length - 1; ci++) {
+            System.out.println("save check " + "Nr. " + ci + " " + temp[ci] + " ......");
+        }
+
+        // Przekazanie zawartosci tymczasowej do ogolnej tablicy "person"
+        person = temp.clone();
     }
 
 
-    public void showPersons(Person[] personReverted){ //ShowPerson, other method will revert.
-        //for (int l=0;l<personReverted.length-1;l++){ //0 to length
-            //System.out.println(l + "-" + personReverted[l].getName() + personReverted[l].getSurname());
-        //}
-        System.out.println(personReverted[1]);
+
+    public void showPersons(Person[] temp){ //ShowPerson, other method will revert.
+        for (int l=0;l<=temp.length-1;l++){ //0 to length
+            System.out.println(l + "-" + temp[l].getName() + temp[l].getSurname());
+        }
+        System.out.println("SHOW: " + temp[1]);
+        //System.out.println("SHOW: " + temp[1]);
     }
 }
