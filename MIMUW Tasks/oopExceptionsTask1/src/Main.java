@@ -12,7 +12,8 @@ public class Main {
             n.printStackTrace(System.out);
             //n.fillInStackTrace(); - Temporary
             //throw n; - Temporary
-            throw new Exception(); // Same usage as above method implementation.
+            //throw new Exception(); - Same usage as above method implementation.
+            throw new Exception(n); // Like in 12 line :"n.printStackTrace(System.out);"(precision) and cause added.
         } /*finally {
             //System.out.println("Final!");
         }*/
