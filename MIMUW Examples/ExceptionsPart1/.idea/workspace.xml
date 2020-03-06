@@ -1,7 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3e558ff-b626-4c07-be26-2fedaca4d757" name="Default Changelist" comment="" />
+    <list default="true" id="d3e558ff-b626-4c07-be26-2fedaca4d757" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Pytania na staż do firmy/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Zabawa Metodami/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Zabawa Metodami/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Zabawa Metodami/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Zabawa Metodami/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Zabawa Metodami/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Zabawa Metodami/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Zabawa Metodami/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Zabawa Metodami/Ass.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Zabawa Metodami/out/production/Ass/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Zabawa Metodami/out/production/Ass/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Zabawa Metodami/out/production/Ass/com/ass/components/Ass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Zabawa Metodami/src/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Zabawa Metodami/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Addidtional Tasks/Zabawa Metodami/src/com/ass/components/Ass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/A/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/A/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/A/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/A/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/A/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/A/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/A/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/A/A.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/A/out/production/A/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/A/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Abstract/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Abstract/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Abstract/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Abstract/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Abstract/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Abstract/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Abstract/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Abstract/Abstract.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Abstract/out/production/Abstract/AbstractImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Abstract/out/production/Abstract/AbstractJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Abstract/out/production/Abstract/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Abstract/src/AbstractImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Abstract/src/AbstractJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Abstract/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Bartek's examples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Encapsulation/.idea/Encapsulation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Encapsulation/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Encapsulation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Encapsulation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Encapsulation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Encapsulation/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Encapsulation/Enkapsulacja.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Encapsulation/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Encapsulation/staticExplanation/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Encapsulation/staticExplanation/Start.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Encapsulation/staticExplanation/ZmiennaKlasowa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/Encapsulation/staticExplanation/ZmiennaStatyczna.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/JavaException/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/JavaException/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/JavaException/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/JavaException/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/JavaException/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/JavaException/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/JavaException/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/JavaException/JavaException.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/JavaException/out/production/JavaException/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/JavaException/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/Bartek's examples/src/threads/example/Loader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/Fors/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/Fors/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/Fors/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/Fors/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/Fors/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/Fors/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/Fors/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/Fors/Fors.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/Fors/out/production/Fors/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/Fors/out/production/Fors/loops/Normal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/Fors/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/Fors/src/loops/Normal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/JavaCollections.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/out/production/JavaCollections/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/out/production/JavaCollections/kolekcje/ArchiwalnaLista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/out/production/JavaCollections/kolekcje/Kot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/out/production/JavaCollections/kolekcje/Lista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/out/production/JavaCollections/kolekcje/Mapy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/out/production/JavaCollections/kolekcje/Zbiory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/out/production/JavaCollections/tablice/Tablica.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/src/kolekcje/ArchiwalnaLista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/src/kolekcje/Kot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/src/kolekcje/Lista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/src/kolekcje/Mapy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/src/kolekcje/Zbiory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Additional Examples/My examples/JavaCollections/src/tablice/Tablica.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mikolaj/exceptions/ObsługiwanyWyjątek.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="323">
               <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
@@ -155,18 +261,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3285968" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
@@ -174,14 +277,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,20 +296,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="adding missing examples after repo reorganization" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mikolaj/exceptions/NieobsługiwanyWyjątek.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mikolaj/exceptions/ObsługiwanyWyjątek.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -210,6 +303,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikolaj/exceptions/ObsługiwanyWyjątek.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikolaj/exceptions/NieobsługiwanyWyjątek.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
