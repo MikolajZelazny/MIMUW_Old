@@ -43,3 +43,5 @@ public class Main {
         }
     }
 }
+
+// TODO make check of this code for every catch
