@@ -53,3 +53,5 @@ public class Main {
 }
 
 // TODO make check of this code for every catch
+
+// Czy catch łapie kod i wkleja go zmienionego nim try przejdzie do kolejnej metody?
