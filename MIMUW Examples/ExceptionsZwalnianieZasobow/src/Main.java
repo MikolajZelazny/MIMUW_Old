@@ -15,7 +15,7 @@ public class Main {
         Zasób1 z = new Zasób1();
         try {
             z.zarezerwuj();
-
+            System.out.println("Working try");
             //tu jest niebezpieczny kod
             z.używaj();
             z.innaNiebezpiecznaOperacja();
@@ -26,14 +26,17 @@ public class Main {
         } catch (IOException e) {
             //obsługa wyjątku IOException
 
+            System.out.println("Working catch1");
             //zwalnianie zasobów
             z.zwolnij();
-        } catch (InnyMożliwyWyjątek w) {
+        }
+        /*catch (InnyMożliwyWyjątek w) {
             //obsługa wyjątku InnyMożliwyWyjątek
 
             //zwalnianie zasobów
             z.zwolnij();
-        } catch (Exception e) {
+        }*/
+        catch (Exception e) {
             //innych wyjątków nie obsługujemy, ale przechwytujemy je na chwilę, żeby zwolnić zasoby
             //złapią się tu również wyjątki niekontrolowane (rozszerzające RuntimeException)
 
