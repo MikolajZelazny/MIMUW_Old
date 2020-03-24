@@ -9,7 +9,9 @@ class Zasób2 {
     void zarezerwuj() {}
     void używaj() throws IOException {}
     void innaNiebezpiecznaOperacja() throws InnyMożliwyWyjątek {}
-    void zwolnij() {}
+    void zwolnij(int i) {
+        System.out.println("zwalnianie" + i);
+    }
 }
 
 public class Main {
@@ -31,23 +33,23 @@ public class Main {
                 //...
 
                 //zwalnianie zasobów
-                z.zwolnij();
+                z.zwolnij(i);
             } catch (IOException e) {
                 //obsługa wyjątku IOException
 
                 //zwalnianie zasobów
-                z.zwolnij();
+                z.zwolnij(i);
             } catch (InnyMożliwyWyjątek w) {
                 //obsługa wyjątku InnyMożliwyWyjątek
 
                 //zwalnianie zasobów
-                z.zwolnij();
+                z.zwolnij(i);
             } catch (Exception e) {
                 //innych wyjątków nie obsługujemy, ale przechwytujemy je na chwilę, żeby zwolnić zasoby
                 //złapią się tu również wyjątki niekontrolowane (rozszerzające RuntimeException)
 
                 //zwalnianie zasobów
-                z.zwolnij();
+                z.zwolnij(i);
                 throw e;
             }
         }
