@@ -14,3 +14,5 @@ public class Zad5 {
     //void test() throws WyjA, WyjB {}
     void test() throws Exception {}
 }
+
+//TODO read more
