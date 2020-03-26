@@ -33,8 +33,12 @@ public class Main {
                 //...
 
                 //zwalnianie zasobów
+
+            } finally {
                 z.zwolnij(i);
-            } catch (IOException e) {
+            }
+
+            /*catch (IOException e) {
                 //obsługa wyjątku IOException
 
                 //zwalnianie zasobów
@@ -52,6 +56,15 @@ public class Main {
                 z.zwolnij(i);
                 throw e;
             }
+            Output:
+            zwalnianie0
+            zwalnianie1
+            zwalnianie2
+            zwalnianie4
+            zwalnianie5
+            zwalnianie6
+            zwalnianie7
+            */
         }
     }
 }
