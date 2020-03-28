@@ -32,8 +32,7 @@ public class Main {
                 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 //...
 
-                //zwalnianie zasobów
-
+                //zwalnianie zasobów z.zwolnij(i)
             } finally {
                 z.zwolnij(i);
             }
@@ -64,6 +63,17 @@ public class Main {
             zwalnianie5
             zwalnianie6
             zwalnianie7
+
+            Output with finally:
+            zwalnianie0
+            zwalnianie1
+            zwalnianie2
+            zwalnianie3
+            zwalnianie4
+            zwalnianie5
+            zwalnianie6
+            zwalnianie7
+            zwalnianie8
             */
         }
     }
