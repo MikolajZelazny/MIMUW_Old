@@ -1,6 +1,7 @@
 import java.io.IOException;
 
 class InnyMożliwyWyjątek extends Exception {}
+class JeszczeInnyMożliwyWyjątek extends Exception {}
 
 class Zasób3 {
     Zasób3(int i) {
