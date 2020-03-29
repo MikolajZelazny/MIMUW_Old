@@ -3,6 +3,7 @@ import java.io.IOException;
 class InnyMożliwyWyjątek extends Exception {}
 class JeszczeInnyMożliwyWyjątek extends Exception {}
 
+
 class Zasób3 {
     Zasób3(int i) {
         //...
@@ -13,6 +14,16 @@ class Zasób3 {
     void zwolnij(int i) {
         System.out.println("zwalnianie" + i);
     }
+}
+
+class Zasób4 {
+    Zasób4(int i) {
+        //...
+    }
+    void zarezerwuj() throws IOException {}
+    void używaj() throws IOException {}
+    void innaNiebezpiecznaOperacja() throws InnyMożliwyWyjątek, JeszczeInnyMożliwyWyjątek {}
+    void zwolnij() throws IOException {}
 }
 
 public class Main {
