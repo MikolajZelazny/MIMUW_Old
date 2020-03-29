@@ -9,7 +9,9 @@ class Zasób3 {
     void zarezerwuj() {}
     void używaj() throws IOException {}
     void innaNiebezpiecznaOperacja() throws InnyMożliwyWyjątek {}
-    void zwolnij() {}
+    void zwolnij(int i) {
+        System.out.println("zwalnianie" + i);
+    }
 }
 
 public class Main {
@@ -33,7 +35,7 @@ public class Main {
                 //obsługa wyjątku InnyMożliwyWyjątek
             } finally {
                 //zwalnianie zasobów
-                z.zwolnij();
+                z.zwolnij(i);
             }
         }
     }
