@@ -31,8 +31,7 @@ public class Main {
     } catch (NullPointerException w) {
             System.out.println("Any exception catch");
     }  finally {
-        //kod wykonywany niezależnie od wystąpienia wyjątku
-        //tu zwalniamy zasoby
+            System.out.println("finally key-word");
       }
     }
 }
