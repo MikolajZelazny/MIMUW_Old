@@ -1,7 +1,9 @@
 import java.io.IOException;
 
 class Zasób3 {
-    void używaj() throws IOException {}
+    void używaj() throws IOException {
+        throw new IOException();
+    }
     void innaNiebezpiecznaOperacja() throws Exception {}
 }
 
@@ -9,10 +11,11 @@ public class Main {
 
 
     public static void main(String[] args) {
-
+        Zasób3 z = new Zasób3();
         try {
-            throw new IOException();
 
+            z.innaNiebezpiecznaOperacja();
+            z.używaj();
 
 
 
