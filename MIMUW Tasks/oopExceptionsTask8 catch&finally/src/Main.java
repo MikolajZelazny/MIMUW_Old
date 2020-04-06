@@ -1,24 +1,24 @@
 import java.io.IOException;
 
+class Zasób3 {
+    void używaj() throws IOException {}
+    void innaNiebezpiecznaOperacja() throws Exception {}
+}
 
 public class Main {
-    void Wyjatek1() throws Exception {
-        throw new Exception();
-    }
-    void Wyjatek2() throws IOException {
-        throw new IOException();
-    }
+
 
     public static void main(String[] args) {
-    try {
-        Wyjatek1();
-        Wyjatek2();
+
+        try {
+            throw new IOException();
 
 
 
-    } catch (Exception w) {
-        //obsługa wyjątków Typ1
+
     } catch (IOException w) {
+            System.out.println("IOE catch");
+    } catch (Exception w) {
         //obsługa wyjątków Typ2
     }  finally {
         //kod wykonywany niezależnie od wystąpienia wyjątku
