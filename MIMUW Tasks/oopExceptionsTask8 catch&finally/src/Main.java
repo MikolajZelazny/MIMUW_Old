@@ -29,6 +29,7 @@ public class Main {
     } catch (IOException w) {
             System.out.println("IOE catch");
     } catch (NullPointerException w) {
+            // One catch is enough for this task
             System.out.println("Any exception catch");
     }  finally {
             System.out.println("finally key-word");
