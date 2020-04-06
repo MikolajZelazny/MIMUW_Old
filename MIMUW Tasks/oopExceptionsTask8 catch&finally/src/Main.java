@@ -1,27 +1,26 @@
 import java.io.IOException;
 
-class Wyjatek1 extends IOException {
-}
-class Wyjatek2 extends NullPointerException {}
-class Wyjatek3 extends Exception {}
 
 public class Main {
-
+    void Wyjatek1() throws Exception {
+        throw new Exception();
+    }
+    void Wyjatek2() throws IOException {
+        throw new IOException();
+    }
 
     public static void main(String[] args) {
     try {
-        throw new Wyjatek1();
-        //throw new Wyjatek2();
-        //throw new Wyjatek3();
+        Wyjatek1();
+        Wyjatek2();
 
 
-    } catch (Wyjatek1 w) {
+
+    } catch (Exception w) {
         //obsługa wyjątków Typ1
-    } catch (Wyjatek2 w) {
+    } catch (IOException w) {
         //obsługa wyjątków Typ2
-    } catch (Wyjatek3 w) {
-        //obsługa wyjątków Typ3
-    } finally {
+    }  finally {
         //kod wykonywany niezależnie od wystąpienia wyjątku
         //tu zwalniamy zasoby
       }
