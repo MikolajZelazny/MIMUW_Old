@@ -1,10 +1,14 @@
 import java.io.IOException;
 
+
 class Zasób3 {
     void używaj() throws IOException {
+        System.out.println("and use");
         throw new IOException();
+
     }
     void innaNiebezpiecznaOperacja() throws NullPointerException {
+        System.out.println("and other");
         throw new NullPointerException();
     }
 }
