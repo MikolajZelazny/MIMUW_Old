@@ -8,21 +8,15 @@ public class Main {
 class BrakPaliwa extends Exception {}
 class BrakBenzyny extends BrakPaliwa {}
 class BrakGazu extends BrakPaliwa {}
+class BłądContinuum extends Exception {}
+class ŁamiePrawaFizyki extends Exception {}
+
 
 abstract class Samochód {
     abstract void jedź() throws BrakPaliwa, ŁamiePrawaFizyki;
 }
 
-class SamochódNaBenzynę extends Samochód {
-    void jedź() throws BrakBenzyny, ŁamiePrawaFizyki {}
-}
 
-class SamochódONapędzieHybrydowym extends Samochód {
-    void jedź() throws BrakBenzyny, BrakGazu {}
-}
-
-class BłądContinuum extends Exception {}
-class ŁamiePrawaFizyki extends Exception {}
 
 interface WehikułCzasu {
     void jedź() throws ŁamiePrawaFizyki, BrakPaliwa, BrakBenzyny ;
