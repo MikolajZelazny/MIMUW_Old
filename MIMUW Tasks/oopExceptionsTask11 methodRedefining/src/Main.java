@@ -20,3 +20,17 @@ class SamochódNaBenzynę extends Samochód {
 class SamochódONapędzieHybrydowym extends Samochód {
     void jedź() throws BrakBenzyny, BrakGazu {}
 }
+
+class BłądContinuum extends Exception {}
+class ŁamiePrawaFizyki extends Exception {}
+
+interface WehikułCzasu {
+    void jedź() throws ŁamiePrawaFizyki;
+    void przenieśSięWCzasie() throws BłądContinuum;
+}
+
+class PerpetuumMobile extends Samochód implements WehikułCzasu {
+    public void jedź() {} //nie może deklarować wyjątków, bo
+    //jedź() z Samochód i z WehikułCzasu nie mają wspólnych wyjątków
+    public void przenieśSięWCzasie() throws BłądContinuum {}
+}
