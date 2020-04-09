@@ -8,23 +8,24 @@ public class Main {
 class BrakPaliwa extends Exception {}
 class BrakBenzyny extends BrakPaliwa {}
 class BrakGazu extends BrakPaliwa {}
+
 class BłądContinuum extends Exception {}
 class ŁamiePrawaFizyki extends Exception {}
 
 
 abstract class Samochód {
-    abstract void jedź() throws BrakPaliwa, ŁamiePrawaFizyki;
+    abstract void jedź() throws BrakPaliwa;
 }
 
 
 
 interface WehikułCzasu {
-    void jedź() throws ŁamiePrawaFizyki, BrakPaliwa, BrakBenzyny ;
+    void jedź() throws ŁamiePrawaFizyki;
     void przenieśSięWCzasie() throws BłądContinuum;
 }
 
 class PerpetuumMobile extends Samochód implements WehikułCzasu {
-    public void jedź() {} //nie może deklarować wyjątków, bo
+    public void jedź() throws ŁamiePrawaFizyki; {} //nie może deklarować wyjątków, bo
     //jedź() z Samochód i z WehikułCzasu nie mają wspólnych wyjątków
     public void przenieśSięWCzasie() throws BłądContinuum {}
 }
