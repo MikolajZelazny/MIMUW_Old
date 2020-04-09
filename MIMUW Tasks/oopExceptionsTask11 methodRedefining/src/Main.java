@@ -10,11 +10,11 @@ class BrakBenzyny extends BrakPaliwa {}
 class BrakGazu extends BrakPaliwa {}
 
 abstract class Samochód {
-    abstract void jedź() throws BrakPaliwa;
+    abstract void jedź() throws BrakPaliwa, ŁamiePrawaFizyki;
 }
 
 class SamochódNaBenzynę extends Samochód {
-    void jedź() throws BrakBenzyny {}
+    void jedź() throws BrakBenzyny, ŁamiePrawaFizyki {}
 }
 
 class SamochódONapędzieHybrydowym extends Samochód {
@@ -25,7 +25,7 @@ class BłądContinuum extends Exception {}
 class ŁamiePrawaFizyki extends Exception {}
 
 interface WehikułCzasu {
-    void jedź() throws ŁamiePrawaFizyki;
+    void jedź() throws ŁamiePrawaFizyki, BrakPaliwa, BrakBenzyny ;
     void przenieśSięWCzasie() throws BłądContinuum;
 }
 
