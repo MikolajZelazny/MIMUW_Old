@@ -10,7 +10,7 @@ class BrakBenzyny extends BrakPaliwa {}
 class BrakGazu extends BrakPaliwa {}
 
 class BłądContinuum extends Exception {}
-class ŁamiePrawaFizyki extends Exception {}
+class ŁamiePrawaFizyki extends RuntimeException {}
 
 
 abstract class Samochód {
@@ -25,7 +25,7 @@ interface WehikułCzasu {
 }
 
 class PerpetuumMobile extends Samochód implements WehikułCzasu {
-    public void jedź() throws ŁamiePrawaFizyki; {} //nie może deklarować wyjątków, bo
+    public void jedź() throws ŁamiePrawaFizyki {} //nie może deklarować wyjątków, bo
     //jedź() z Samochód i z WehikułCzasu nie mają wspólnych wyjątków
     public void przenieśSięWCzasie() throws BłądContinuum {}
 }
