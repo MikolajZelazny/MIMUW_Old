@@ -17,8 +17,6 @@ abstract class Samochód {
     abstract void jedź() throws BrakPaliwa;
 }
 
-
-
 interface WehikułCzasu {
     void jedź() throws ŁamiePrawaFizyki;
     void przenieśSięWCzasie() throws BłądContinuum;
