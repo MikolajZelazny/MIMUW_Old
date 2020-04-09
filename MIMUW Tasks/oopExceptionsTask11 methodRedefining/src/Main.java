@@ -34,3 +34,25 @@ class PerpetuumMobile extends Samochód implements WehikułCzasu {
     //jedź() z Samochód i z WehikułCzasu nie mają wspólnych wyjątków
     public void przenieśSięWCzasie() throws BłądContinuum {}
 }
+
+
+/* MIMUW coplete (valid)
+
+class BłądContinuum extends Exception {}
+class ŁamiePrawaFizyki extends RuntimeException {}
+
+abstract class Samochód {
+  abstract void jedź() throws BrakPaliwa;
+}
+
+interface WehikułCzasu {
+  void jedź() throws ŁamiePrawaFizyki;
+  void przenieśSięWCzasie() throws BłądContinuum;
+}
+
+class PerpetuumMobile extends Samochód implements WehikułCzasu {
+  public void jedź() throws ŁamiePrawaFizyki {}
+  public void przenieśSięWCzasie() throws BłądContinuum {}
+}
+
+ */
