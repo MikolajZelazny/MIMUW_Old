@@ -35,6 +35,8 @@ class PerpetuumMobile extends Samochód implements WehikułCzasu {
     public void przenieśSięWCzasie() throws BłądContinuum {}
 }
 
+// BrakPaliwa class, was enough because of inheritance. Also interface method should be changed just to thow RuntimeException
+
 
 /* MIMUW coplete (valid)
 
