@@ -1,6 +1,7 @@
 package com.mikolaj;
 
 public class Stos {
+// OLD SOLUTION
 
     private EltStosu wierzch;
 
