@@ -9,7 +9,7 @@ public class MyGenericNumbers<T extends Number> {
     }
 
     double square (T ob){
-        return ob.intValue() * ob.doubleValue(); //without "extends Number" compilator doesn't know type so this is error
+        return ob.intValue() * ob.doubleValue(); //without "extends Number" compiler doesn't know type so this is error
         // because we cannon't multiply string * string.
     }
 }
