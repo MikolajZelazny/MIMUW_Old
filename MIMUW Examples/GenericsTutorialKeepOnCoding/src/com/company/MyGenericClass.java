@@ -12,7 +12,7 @@ public class MyGenericClass<T, C, V> {
     }
 
     void showType(){
-        System.out.println(ob.getClass().getName());
+        System.out.println(ob.getClass().getName() + ob2.getClass().getName() + ob3.getClass().getName());
     }
 
 
