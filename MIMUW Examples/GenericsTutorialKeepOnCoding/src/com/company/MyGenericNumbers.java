@@ -1,6 +1,7 @@
 package com.company;
 
 public class MyGenericNumbers<T extends Number> {
+    //Number --> Integer, Double Float
 
     T ob;
 
