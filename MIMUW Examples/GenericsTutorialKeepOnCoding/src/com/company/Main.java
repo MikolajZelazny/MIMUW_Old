@@ -9,5 +9,7 @@ public class Main {
         MyGenericNumbers<Integer> obj2 = new MyGenericNumbers<>(8);
         System.out.println(obj2.square());
 
+        MyGenericNumbers<Double> obj3 = new MyGenericNumbers<>(-8.0);
+        System.out.println(obj2.absEqual(obj3));
     }
 }

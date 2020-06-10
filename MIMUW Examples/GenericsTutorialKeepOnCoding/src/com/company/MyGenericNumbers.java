@@ -13,4 +13,10 @@ public class MyGenericNumbers<T extends Number> {
         return num.intValue() * num.doubleValue(); //without "extends Number" compiler doesn't know type so this is error
         // because we cannon't multiply string * string.
     }
+
+    boolean absEqual (MyGenericNumbers<?> ob){
+        if (Math.abs(num.doubleValue())==Math.abs(ob.num.doubleValue())) //ob.num?
+            return true;
+        return false;
+    }
 }
