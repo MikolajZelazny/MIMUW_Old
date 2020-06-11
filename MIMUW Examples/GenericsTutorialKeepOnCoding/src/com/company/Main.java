@@ -13,5 +13,6 @@ public class Main {
         System.out.println(obj2.absEqual(obj3));
 
         System.out.println(("Trója : " + obj));
+
     }
 }
