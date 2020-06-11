@@ -11,5 +11,7 @@ public class Main {
 
         MyGenericNumbers<Double> obj3 = new MyGenericNumbers<>(-8.0);
         System.out.println(obj2.absEqual(obj3));
+
+        System.out.println(("Trója : " + obj));
     }
 }
