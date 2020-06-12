@@ -20,5 +20,5 @@ public class MyGenericClass<T, C, V> {
         System.out.println(ob.getClass().getName() + " " + ob2.getClass().getName() + " " + ob3.getClass().getName());
     }
 
-
+    //TODO override equals method
 }
