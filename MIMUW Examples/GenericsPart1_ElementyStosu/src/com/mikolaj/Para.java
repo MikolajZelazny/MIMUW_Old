@@ -9,6 +9,7 @@ public class Para<T1, T2> {
         this.drugi = drugi;
     }
 
+    //Check same method in GenericsPart2 for compare
     @Override
     public boolean equals(Object o) {
         if (!(o instanceof Para<?, ?>)) return false;
