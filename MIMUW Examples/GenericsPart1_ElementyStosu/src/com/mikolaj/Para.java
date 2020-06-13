@@ -9,6 +9,22 @@ public class Para<T1, T2> {
         this.drugi = drugi;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (!(o instanceof Para<?, ?>)) return false;
+        Para<T1, T2> p = (Para<T1, T2>) o;  // Ostrzeżenie kompilatora: unchecked cast
+        if ((pierwszy() != null) && (drugi() != null))
+            return pierwszy().equals(p.pierwszy()) &&
+                    drugi().equals(p.drugi());
+        else if ((pierwszy() == null) && (drugi() == null))
+            return (p.pierwszy() == null) && (p.drugi() == null);
+        else // dokładnie jeden z elementów pary jest równy null
+            if (pierwszy() == null)
+                return (p.pierwszy() == null) && (drugi().equals(p.drugi()));
+            else // drugi()==null
+                return pierwszy().equals(p.pierwszy()) && (p.drugi() == null);
+    }
+
     public T1 pierwszy() {
         return pierwszy;
     }
